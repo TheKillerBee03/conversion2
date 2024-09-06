@@ -1,0 +1,41 @@
+html{
+    height: 100%; /* used to set an element's height */
+}
+body{
+    background-image: url('bg.jpg'); /* use to put some images to background */
+    background-repeat: no-repeat; /* no repitition for image image background */
+    background-size: 100% 100%; /* to set the background image balance*/
+    font-family: Arial, Helvetica, sans-serif; /* font type */
+}
+#output{ 
+    font-size: 13px;
+}
+span{
+    color: rgb(175, 1, 1);/* to set the color of the text */
+    white-space: nowrap;
+    font-size: 17px; /* font size of the text */
+}
+
+.name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(182, 74, 182, 0.932) ; /* background color of form */
+    border-radius: 20px; /* To rounds the corners of an element's outer border edge */
+    padding: 30px; /* used to generate space around an element's content inside of any defined borders */
+    box-shadow: rgb(53, 4, 117) 0px 20px 30px -10px; /* to set the shadow color in the box */
+    
+    
+}
+input{
+    border-bottom: 1px solid white; /* to set the buttom value */
+    outline: none;
+}
+button{
+    color: black; /* color for the text */
+    padding: 30px; /* used to generate space around an element's content inside of any defined borders  */
+    border-radius: 5px solid white; /* To rounds the corners of an element's outer border edge */
+    background: white;/* background color of the button */
+    cursor: pointer;
+}
